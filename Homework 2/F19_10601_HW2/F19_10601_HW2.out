@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Written Questions [25pts]}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Warm-up}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Empirical Questions}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Programming [75pts]}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{The Tasks and Datasets}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Program \0431: Inspecting the Data [5pts]}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Program \0432: Decision Tree Learner [75pts]}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Command Line Arguments}{subsection.2.3}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Output: Labels Files}{subsection.2.3}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Output: Metrics File}{subsection.2.3}% 10
+\BOOKMARK [3][-]{subsubsection.2.3.4}{Output: Printing the Tree}{subsection.2.3}% 11
+\BOOKMARK [3][-]{subsubsection.2.3.5}{Evaluation}{subsection.2.3}% 12
+\BOOKMARK [2][-]{subsection.2.4}{Submission Instructions}{section.2}% 13

@@ -1,0 +1,27 @@
+def train(root):
+	max_depth = 2
+	max_info_gain = findMaxInfoGain(root.val)
+	if max_info_gain < 0 or root.depth > max_depth:
+		return
+	print(root.val[-1])
+	n1 = n2 = n3 = n4 = 0
+	root.left = Node(splitData(root.val, max_info_gain, val1), root.depth + 1)
+	root.right = Node(splitData(root.val, max_info_gain, val2), root.depth + 1)
+	root.left.max_ig_ind = max_info_gain
+	root.right.max_ig_ind = max_info_gain
+	for i in range(1, len(root.left.val[0])):
+		if root.left.val[-1][i] == lab1:
+			n1 += 1
+		else:
+			n2 += 1
+	for i in range(1, len(root.right.val[0])):
+		if root.right.val[-1][i] == lab1:
+			n3 += 1
+		else:
+			n4 += 1
+	root.left.label[0] = n1
+	root.left.label[1] = n2
+	root.right.label[0] = n3
+	root.right.label[1] = n4
+	train(root.left)
+	train(root.right)
