@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.4)  26 OCT 2019 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.4)  26 OCT 2019 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**F19_10601_HW2.tex
-(./F19_10601_HW2.tex
+**main.tex
+(./main.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -739,16 +739,25 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \@float@every@algorithm=\toks34
 \c@algorithm=\count289
 )
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count290
-\c@ALC@line=\count291
-\c@ALC@rem=\count292
-\c@ALC@depth=\count293
-\ALC@tlm=\skip85
-\algorithmicindent=\skip86
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count290
+\c@ALG@rem=\count291
+\c@ALG@nested=\count292
+\ALG@tlm=\skip85
+\ALG@thistlm=\skip86
+\c@ALG@Lnr=\count293
+\c@ALG@blocknr=\count294
+\c@ALG@storecount=\count295
+\c@ALG@tmpcounter=\count296
+\ALG@tmplength=\skip87
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -793,7 +802,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen186
 \caption@hangindent=\dimen187
 )
-\c@ContinuedFloat=\count294
+\c@ContinuedFloat=\count297
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -801,60 +810,35 @@ Package caption Info: longtable package is loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count295
-\lst@gtempboxa=\box79
-\lst@token=\toks35
-\lst@length=\count296
-\lst@currlwidth=\dimen188
-\lst@column=\count297
-\lst@pos=\count298
-\lst@lostspace=\dimen189
-\lst@width=\dimen190
-\lst@newlines=\count299
-\lst@lineno=\count300
-\lst@maxwidth=\dimen191
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count301
-\lst@skipnumbers=\count302
-\lst@framebox=\box80
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
-))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
-
 (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box81
-\beforetitleunit=\skip87
-\aftertitleunit=\skip88
-\ttl@plus=\dimen192
-\ttl@minus=\dimen193
-\ttl@toksa=\toks36
-\titlewidth=\dimen194
-\titlewidthlast=\dimen195
-\titlewidthfirst=\dimen196
+\ttl@box=\box79
+\beforetitleunit=\skip88
+\aftertitleunit=\skip89
+\ttl@plus=\dimen188
+\ttl@minus=\dimen189
+\ttl@toksa=\toks35
+\titlewidth=\dimen190
+\titlewidthlast=\dimen191
+\titlewidthfirst=\dimen192
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip89
-\enit@outerparindent=\dimen197
-\enit@toks=\toks37
-\enit@inbox=\box82
-\enitdp@description=\count303
+\labelindent=\skip90
+\enit@outerparindent=\dimen193
+\enit@toks=\toks36
+\enit@inbox=\box80
+\enitdp@description=\count298
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count304
+\etb@tempcnta=\count299
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2017/12/24 v3.05
@@ -864,10 +848,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks38
-\XKV@tempa@toks=\toks39
+\XKV@toks=\toks37
+\XKV@tempa@toks=\toks38
 )
-\XKV@depth=\count305
+\XKV@depth=\count300
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
@@ -875,45 +859,70 @@ Package: fcprefix 2012/09/28
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count306
+\fc@digit@counter=\count301
 ))
-\c@padzeroesN=\count307
-\fc@tmpcatcode=\count308
-\@DT@modctr=\count309
-\@ordinalctr=\count310
-\@orgargctr=\count311
-\@strctr=\count312
-\@tmpstrctr=\count313
-\@DT@loopN=\count314
-\@DT@X=\count315
+\c@padzeroesN=\count302
+\fc@tmpcatcode=\count303
+\@DT@modctr=\count304
+\@ordinalctr=\count305
+\@orgargctr=\count306
+\@strctr=\count307
+\@tmpstrctr=\count308
+\@DT@loopN=\count309
+\@DT@X=\count310
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count316
-\@month=\count317
-\@year=\count318
-\c@HOUR=\count319
-\c@HOURXII=\count320
-\c@MINUTE=\count321
-\c@TOHOUR=\count322
-\c@TOMINUTE=\count323
-\c@SECOND=\count324
-\currenthour=\count325
-\currentminute=\count326
-\currentsecond=\count327
+\@day=\count311
+\@month=\count312
+\@year=\count313
+\c@HOUR=\count314
+\c@HOURXII=\count315
+\c@MINUTE=\count316
+\c@TOHOUR=\count317
+\c@TOMINUTE=\count318
+\c@SECOND=\count319
+\currenthour=\count320
+\currentminute=\count321
+\currentsecond=\count322
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count328
-\dayofyear=\count329
-\dayofweek=\count330
+\@dtctr=\count323
+\dayofyear=\count324
+\dayofweek=\count325
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks40
-\dt@b=\toks41
+\dt@a=\toks39
+\dt@b=\toks40
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count326
+\lst@gtempboxa=\box81
+\lst@token=\toks41
+\lst@length=\count327
+\lst@currlwidth=\dimen194
+\lst@column=\count328
+\lst@pos=\count329
+\lst@lostspace=\dimen195
+\lst@width=\dimen196
+\lst@newlines=\count330
+\lst@lineno=\count331
+\lst@maxwidth=\dimen197
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count332
+\lst@skipnumbers=\count333
+\lst@framebox=\box82
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
@@ -956,10 +965,10 @@ ex
 \pgf@yc=\dimen263
 \w@pgf@writea=\write5
 \r@pgf@reada=\read2
-\c@pgf@counta=\count331
-\c@pgf@countb=\count332
-\c@pgf@countc=\count333
-\c@pgf@countd=\count334
+\c@pgf@counta=\count334
+\c@pgf@countb=\count335
+\c@pgf@countc=\count336
+\c@pgf@countd=\count337
 \t@pgf@toka=\toks46
 \t@pgf@tokb=\toks47
 \t@pgf@tokc=\toks48
@@ -978,8 +987,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count335
-\pgfsyssoftpath@bigbuffer@items=\count336
+\pgfsyssoftpath@smallbuffer@items=\count338
+\pgfsyssoftpath@bigbuffer@items=\count339
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -993,7 +1002,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen264
-\pgfmath@count=\count337
+\pgfmath@count=\count340
 \pgfmath@box=\box84
 \pgfmath@toks=\toks49
 \pgfmath@stack@operand=\toks50
@@ -1017,7 +1026,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count338
+\c@pgfmathroundto@lastzeros=\count341
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -1055,7 +1064,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box85
 \pgf@hbox=\box86
 \pgf@layerbox@main=\box87
-\pgf@picture@serial@count=\count339
+\pgf@picture@serial@count=\count342
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1088,7 +1097,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen288
-\pgf@sys@shading@range@num=\count340
+\pgf@sys@shading@range@num=\count343
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1145,7 +1154,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count341
+\pgf@plot@mark@count=\count344
 \pgfplotmarksize=\dimen293
 )
 \tikz@lastx=\dimen294
@@ -1158,18 +1167,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box91
 \tikz@tempbox=\box92
 \tikz@tempbox@bg=\box93
-\tikztreelevel=\count342
-\tikznumberofchildren=\count343
-\tikznumberofcurrentchild=\count344
-\tikz@fig@count=\count345
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count346
-\pgfmatrixcurrentcolumn=\count347
-\pgf@matrix@numberofcolumns=\count348
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
 )
-\tikz@expandcount=\count349
+\tikz@expandcount=\count352
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1256,14 +1265,14 @@ e.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen302
 \pgfdecoratedinputsegmentremainingdistance=\dimen303
 \pgf@decorate@distancetomove=\dimen304
-\pgf@decorate@repeatstate=\count350
+\pgf@decorate@repeatstate=\count353
 \pgfdecorationsegmentamplitude=\dimen305
 \pgfdecorationsegmentlength=\dimen306
 )
 \tikz@lib@dec@box=\box114
 ) (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip90
+\OuterFrameSep=\skip91
 \fb@frw=\dimen307
 \fb@frh=\dimen308
 \FrameRule=\dimen309
@@ -1281,12 +1290,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen318
 \cmidrulekern=\dimen319
 \defaultaddspace=\dimen320
-\@cmidla=\count351
-\@cmidlb=\count352
+\@cmidla=\count354
+\@cmidlb=\count355
 \@aboverulesep=\dimen321
 \@belowrulesep=\dimen322
-\@thisruleclass=\count353
-\@lastruleclass=\count354
+\@thisruleclass=\count356
+\@lastruleclass=\count357
 \@thisrulewidth=\dimen323
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cprotect/cprotect.sty
@@ -1296,8 +1305,8 @@ Package: cprotect 2011/01/27 v1.0e (Bruno Le Floch)
 Package: suffix 2006/07/15 1.5a Variant command support
 )
 \CPT@WriteOut=\write6
-\c@CPT@WriteCount=\count355
-\c@CPT@numB=\count356
+\c@CPT@WriteCount=\count358
+\c@CPT@numB=\count359
 \CPT@commandatend@toks=\toks54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty
@@ -1317,21 +1326,21 @@ Package: readarray 2016/11/07\ 2.0\ Routines for inputting 2D and 3D array data
 
 (/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
 (/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex
-\loi_nestcnt=\count357
+\loi_nestcnt=\count360
 )
 Package: listofitems 2018/01/13 v1.52 Grab items in lists using user-specified 
 sep char (CT)
 )
-\c@@index=\count358
-\c@@plane=\count359
-\c@@row=\count360
-\c@@col=\count361
-\c@use@args=\count362
-\c@@record=\count363
-\c@arg@index=\count364
-\c@break@count=\count365
-\c@index@count=\count366
-\c@loop@count=\count367
+\c@@index=\count361
+\c@@plane=\count362
+\c@@row=\count363
+\c@@col=\count364
+\c@use@args=\count365
+\c@@record=\count366
+\c@arg@index=\count367
+\c@break@count=\count368
+\c@index@count=\count369
+\c@loop@count=\count370
 \Arg@toks=\toks57
 \@arrayident@toks=\toks58
 \rdar@file=\read4
@@ -1339,22 +1348,63 @@ sep char (CT)
 readarray: bounds checking OFF
 )
 \savedverbbox=\box115
-\c@VerbboxLineNo=\count368
+\c@VerbboxLineNo=\count371
 \boxtopsep=\dimen324
 \boxbottomsep=\dimen325
 \ps@tempdima=\dimen326
 \ps@tempboxa=\box116
-\boxtop@sep=\skip91
-\boxbottom@sep=\skip92
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+\boxtop@sep=\skip92
+\boxbottom@sep=\skip93
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count372
+\c@subtable=\count373
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count374
+\calc@Bcount=\count375
+\calc@Adimen=\dimen327
+\calc@Bdimen=\dimen328
+\calc@Askip=\skip94
+\calc@Bskip=\skip95
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count376
+\calc@Cskip=\skip96
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count377
+\l_MT_multwidth_dim=\dimen329
+\origjot=\skip97
+\l_MT_shortvdotswithinadjustabove_dim=\dimen330
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen331
+\l_MT_above_intertext_sep=\dimen332
+\l_MT_below_intertext_sep=\dimen333
+\l_MT_above_shortintertext_sep=\dimen334
+\l_MT_below_shortintertext_sep=\dimen335
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2018/01/12 version 4.12 text color boxes
 \tcb@titlebox=\box117
 \tcb@upperbox=\box118
 \tcb@lowerbox=\box119
 \tcb@phantombox=\box120
-\c@tcbbreakpart=\count369
-\c@tcblayer=\count370
-\tcolorbox@number=\count371
+\c@tcbbreakpart=\count378
+\c@tcblayer=\count379
+\tcolorbox@number=\count380
 \tcb@temp=\box121
 \tcb@temp=\box122
 \tcb@temp=\box123
@@ -1364,9 +1414,9 @@ Package: tcolorbox 2018/01/12 version 4.12 text color boxes
 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '4.12'
-\c@tcbrastercolumn=\count372
-\c@tcbrasterrow=\count373
-\c@tcbraster=\count374
+\c@tcbrastercolumn=\count381
+\c@tcbrasterrow=\count382
+\c@tcbraster=\count383
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '4.12'
 \tcb@waterbox=\box125
@@ -1383,10 +1433,10 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '4.12'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '4.12'
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '4.12'
-\tcbfitdim=\dimen327
-\tcb@lowerfitdim=\dimen328
-\tcb@upperfitdim=\dimen329
-\tcb@cur@hbadness=\count375
+\tcbfitdim=\dimen336
+\tcb@lowerfitdim=\dimen337
+\tcb@upperfitdim=\dimen338
+\tcb@cur@hbadness=\count384
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '4.12'
 .................................................
@@ -1399,34 +1449,43 @@ Library (tcolorbox): 'tcbxparse.code.tex' version '4.12'
 . 
 . Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
 .................................................
-)) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
-Package: cancel 2013/04/12 v2.2 Cancel math terms
-)
-(./F19_10601_HW2.aux)
-\openout1 = `F19_10601_HW2.aux'.
+)) (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks59
+\SOUL@lasttoken=\toks60
+\SOUL@cmds=\toks61
+\SOUL@buffer=\toks62
+\SOUL@token=\toks63
+\SOUL@spaceskip=\skip98
+\SOUL@ttwidth=\dimen339
+\SOUL@uldp=\dimen340
+\SOUL@ulht=\dimen341
+) (./main.aux)
+\openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 207.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 207.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 361.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 361.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 207.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 361.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -1468,80 +1527,80 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count376
-\scratchdimen=\dimen330
+\scratchcounter=\count385
+\scratchdimen=\dimen342
 \scratchbox=\box129
-\nofMPsegments=\count377
-\nofMParguments=\count378
-\everyMPshowfont=\toks59
-\MPscratchCnt=\count379
-\MPscratchDim=\dimen331
-\MPnumerator=\count380
-\makeMPintoPDFobject=\count381
-\everyMPtoPDFconversion=\toks60
+\nofMPsegments=\count386
+\nofMParguments=\count387
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count388
+\MPscratchDim=\dimen343
+\MPnumerator=\count389
+\makeMPintoPDFobject=\count390
+\everyMPtoPDFconversion=\toks65
 )
 \AtBeginShipoutBox=\box130
-Package hyperref Info: Link coloring ON on input line 207.
+Package hyperref Info: Link coloring ON on input line 361.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count382
+\c@section@level=\count391
 )
-LaTeX Info: Redefining \ref on input line 207.
-LaTeX Info: Redefining \pageref on input line 207.
-LaTeX Info: Redefining \nameref on input line 207.
+LaTeX Info: Redefining \ref on input line 361.
+LaTeX Info: Redefining \pageref on input line 361.
+LaTeX Info: Redefining \nameref on input line 361.
 
-(./F19_10601_HW2.out) (./F19_10601_HW2.out)
+(./main.out) (./main.out)
 \@outlinefile=\write9
-\openout9 = `F19_10601_HW2.out'.
+\openout9 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count383
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 207.
+(lastpage)             ! on input line 361.
+\c@lstlisting=\count392
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 210.
+LaTeX Font Info:    Try loading font information for U+msa on input line 364.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 210.
+LaTeX Font Info:    Try loading font information for U+msb on input line 364.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 210.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 364.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 210.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 364.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 213.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 367.
 
-Overfull \hbox (21.89998pt too wide) in paragraph at lines 213--214
+Overfull \hbox (21.89998pt too wide) in paragraph at lines 367--368
 [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 215.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1550,144 +1609,416 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 368.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 504.
+<img/oneHL6.png, id=135, 333.245pt x 353.32pt>
+File: img/oneHL6.png Graphic file (type png)
+<use img/oneHL6.png>
+Package pdftex.def Info: img/oneHL6.png  used on input line 509.
+(pdftex.def)             Requested size: 266.59634pt x 282.65639pt.
 
-Overfull \hbox (21.89998pt too wide) in paragraph at lines 397--398
-[][] 
- []
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [4
 
-] [5
+ <./img/oneHL6.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6
 
 ]
-<./images/decTree.jpg, id=112, 722.7pt x 963.6pt>
-File: ./images/decTree.jpg Graphic file (type jpg)
-<use ./images/decTree.jpg>
-Package pdftex.def Info: ./images/decTree.jpg  used on input line 475.
-(pdftex.def)             Requested size: 361.3491pt x 481.79883pt.
- [6
-
- <./images/decTree.jpg>]
-<./images/plot.png, id=119, 527.9725pt x 416.55624pt>
-File: ./images/plot.png Graphic file (type png)
-<use ./images/plot.png>
-Package pdftex.def Info: ./images/plot.png  used on input line 513.
-(pdftex.def)             Requested size: 263.9856pt x 208.2776pt.
- [7
-
- <./images/plot.png>] [8
-
-] [9
-
-]
-<./images/politicians.png, id=137, 736.7525pt x 294.09875pt>
-File: ./images/politicians.png Graphic file (type png)
-<use ./images/politicians.png>
-Package pdftex.def Info: ./images/politicians.png  used on input line 547.
-(pdftex.def)             Requested size: 368.37535pt x 147.04901pt.
- [10
-
- <./images/politicians.png>] [11
-
-]
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 576.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 576.
-
-Overfull \hbox (4.7615pt too wide) in paragraph at lines 574--577
-\OT1/ptm/m/n/10.95 two pro-grams: \OT1/pcr/m/n/10.95 inspect.\OMS/cmsy/m/n/10.9
-5 f\OT1/pcr/m/n/10.95 py|java|cpp|m\OMS/cmsy/m/n/10.95 g \OT1/ptm/m/n/10.95 (Se
-c-tion [][]2.2[][]) and \OT1/pcr/m/n/10.95 decisionTree.\OMS/cmsy/m/n/10.95 f\O
-T1/pcr/m/n/10.95 py|java|cpp|m\OMS/cmsy/m/n/10.95 g
- []
-
-
-Overfull \hbox (21.89998pt too wide) in paragraph at lines 602--603
+Overfull \hbox (8.5014pt too wide) in paragraph at lines 664--664
 [][] 
  []
 
-[12]
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 617.
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+Overfull \hbox (8.5014pt too wide) in paragraph at lines 728--728
+[][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12
+
+]
+<img/plot1.png, id=237, 462.528pt x 346.896pt>
+File: img/plot1.png Graphic file (type png)
+<use img/plot1.png>
+Package pdftex.def Info: img/plot1.png  used on input line 985.
+(pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13
+
+ <./img/plot1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14
+
+]
+<img/plot4.png, id=252, 462.528pt x 346.896pt>
+File: img/plot4.png Graphic file (type png)
+<use img/plot4.png>
+Package pdftex.def Info: img/plot4.png  used on input line 1010.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+<img/plot3.png, id=253, 462.528pt x 346.896pt>
+File: img/plot3.png Graphic file (type png)
+<use img/plot3.png>
+Package pdftex.def Info: img/plot3.png  used on input line 1010.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+<img/plot2.png, id=254, 462.528pt x 346.896pt>
+File: img/plot2.png Graphic file (type png)
+<use img/plot2.png>
+Package pdftex.def Info: img/plot2.png  used on input line 1010.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15
+
+ <./img/plot4.png> <./img/plot3.png> <./img/plot2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16
+
+]
+<img/10lettergrid.png, id=273, 165.61874pt x 304.13625pt>
+File: img/10lettergrid.png Graphic file (type png)
+<use img/10lettergrid.png>
+Package pdftex.def Info: img/10lettergrid.png  used on input line 1050.
+(pdftex.def)             Requested size: 163.96304pt x 301.09581pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17
+
+ <./img/10lettergrid.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 1127
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspcr.fd
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1127.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 1158
+.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 617.
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 1158.
 
-Overfull \hbox (21.89998pt too wide) in paragraph at lines 673--674
+Overfull \hbox (0.307pt too wide) in paragraph at lines 1155--1177
 [][] 
  []
 
-[13]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 679.
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1194
+
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 1210--1210
+[]\OT1/ptm/m/n/10.95 EJML is a pure Java lin-ear al-ge-bra pack-age with three 
+in-ter-faces. We strongly rec-om-
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 1210--1210
+\OT1/ptm/m/n/10.95 mend us-ing the Sim-pleMa-trix in-ter-face. Au-to-lab will u
+se EJML ver-sion 3.3. The com-
+ []
+
+
+Overfull \hbox (21.89998pt too wide) in paragraph at lines 1210--1211
+[][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 1217
+.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 679.
- [14]
-Overfull \hbox (2.67018pt too wide) in paragraph at lines 741--744
-\OT1/pcr/m/n/10.95 input> <max depth> <train out> <test out> <metrics out>\OT1/
-ptm/m/n/10.95 . These ar-gu-ments are de-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1217.
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1219
+
  []
 
-[15] [16]
-Overfull \hbox (21.89998pt too wide) in paragraph at lines 865--866
+
+Overfull \hbox (30.25009pt too wide) in paragraph at lines 1233--1234
+[]\OT1/ptm/m/n/10.95 After the fi-nal epoch (i.e. when train-ing has com-pleted
+ fully), re-port the fi-nal train-ing er-ror [][][][][][]
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
+Overfull \hbox (21.89998pt too wide) in paragraph at lines 1274--1275
 [][] 
  []
 
-[17]
-Overfull \hbox (21.89998pt too wide) in paragraph at lines 924--925
+
+Overfull \hbox (21.89998pt too wide) in paragraph at lines 1278--1279
 [][] 
  []
 
-[18] [19] 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 1331.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24
+
+]
+Overfull \hbox (21.89998pt too wide) in paragraph at lines 1436--1437
+[][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 1607.
+
+ 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 934.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 934.
-(./F19_10601_HW2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 934.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 934.
-Package rerunfilecheck Info: File `F19_10601_HW2.out' has not changed.
-(rerunfilecheck)             Checksum: EE8D2A01F22C0A7E3CE8407ACCF44CDA;960.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 934.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1625.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1625.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1625.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1625.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CB869090F0F0CAC0BC749AC4809F28EC;2003.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1625.
  ) 
 Here is how much of TeX's memory you used:
- 37826 strings out of 492982
- 760793 string characters out of 6134897
- 1008884 words of memory out of 5000000
- 40644 multiletter control sequences out of 15000+600000
- 568190 words of font info for 107 fonts, out of 8000000 for 9000
+ 39443 strings out of 492982
+ 782925 string characters out of 6134897
+ 946536 words of memory out of 5000000
+ 42153 multiletter control sequences out of 15000+600000
+ 583763 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,14n,93p,10385b,1793s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,16n,93p,10376b,1533s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courie
-r/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on F19_10601_HW2.pdf (19 pages, 291863 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/co
+urier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on main.pdf (30 pages, 598078 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 121 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 185 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
