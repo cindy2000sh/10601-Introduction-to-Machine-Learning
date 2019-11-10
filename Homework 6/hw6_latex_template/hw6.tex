@@ -617,12 +617,14 @@ Answer the following questions in the HW6 solutions template provided.  Then upl
         \item $H(X, Y)$ 
         \item $I(X;Y)$ 
     \end{enumerate}
-    \begin{tcolorbox}[fit,height=5cm, width=\linewidth, blank, borderline={1pt}{1pt}]
+    \begin{tcolorbox}[fit,height=8cm, width=\linewidth, blank, borderline={1pt}{-2pt}]
+    \includegraphics[width=0.99\linewidth]{figs/screen1.png}
     \end{tcolorbox}
     
     
     \item[5] [2 points] Prove the symmetry of mutual information between any two random variables X,Y, i.e., $I(X;Y) = I(Y;X)$.\\
-    \begin{tcolorbox}[fit,height=5cm, width=\linewidth, blank, borderline={1pt}{1pt}]
+    \begin{tcolorbox}[fit,height=12cm, width=\linewidth, blank, borderline={1pt}{-2pt}]
+    \includegraphics[width=0.99\linewidth]{figs/screen2.png}
     \end{tcolorbox}
     
     
@@ -890,7 +892,7 @@ What is the size of the state space?
 
 \begin{tcolorbox}[fit,height=1cm, width=\linewidth, blank, borderline={1pt}{-2pt},nobeforeafter]
 %solution
-Considering all the possible combinations of black and white pixels corresponding to the given resolution, the size of the state space is: $2^{160*192}=2^30720$
+Considering all the possible combinations of black and white pixels corresponding to the given resolution, the size of the state space is: $2^{160*192}=2^{30720}$
 \end{tcolorbox}
 
     
@@ -945,8 +947,9 @@ q(\sv, a; \wv) = \sv^T\wv_a
 \end{align}
 Again, assume we are in the black and white setting of Breakout as in Figure~\ref{fig:bw_breakout}. Show that tabular Q-learning is just a special case of Q-learning with a linear function approximator by describing a construction of $\sv$. (\textbf{Hint}: Engineer features such that \ref{eq:linearEQ} encodes a table lookup)
 
-\begin{tcolorbox}[fit,height=4cm, width=\linewidth, blank, borderline={1pt}{-2pt},nobeforeafter]
+\begin{tcolorbox}[fit,height=13cm, width=\linewidth, blank, borderline={1pt}{-2pt},nobeforeafter]
 %solution
+\includegraphics[width=0.99\linewidth]{figs/screen3.png}
 \end{tcolorbox}
 
 
@@ -954,6 +957,7 @@ Again, assume we are in the black and white setting of Breakout as in Figure~\re
 
 \begin{tcolorbox}[fit,height=3cm, width=\linewidth, blank, borderline={1pt}{-2pt},nobeforeafter]
 %solution
+No, new state and action always depend on the current state, so we cannot make the iid assumption. As mentioned during lecture, Experience Replay is a method to tackle this issue, storing some samples and then randomly picking a stored sample when updating. Another similar trick is Prioritized Experience Replay, with the difference that sampling prioritizes experiences with high error.
 \end{tcolorbox}
 
 
@@ -978,6 +982,9 @@ For each set of features, plot the return (sum of all rewards in an episode) per
 
 \begin{tcolorbox}[fit,height=12cm, width=\linewidth, blank, borderline={1pt}{-2pt},nobeforeafter]
 %solution
+\includegraphics[scale=0.45]{figs/raw.png}
+\includegraphics[scale=0.45]{figs/tile.png} \\
+We observe that when using the raw features, we keep getting -200 as our total and rolling mean reward until 1000 episodes and then we get lower values but still the rolling mean revolves around low values (approximately $\leq 180$). On the other hand, when using the tile features, we only get -200 total and rolling mean reward only until the first episodes. After that, our rewards still fluctuate but on larger values. We can see that the rolling mean increases almost linearly and reaches a much higher value than the raw feature rolling mean. It is evident that the training with the raw features takes many more episodes to start converging, whereas the training with the tile features converges at a far lower number of episodes. This was expected, since the tile features are more complex than the simplistic raw features.
 \end{tcolorbox}
 
 \end{enumerate}
@@ -1006,6 +1013,9 @@ For each set of features, plot the return (sum of all rewards in an episode) per
     
 \begin{tcolorbox}[fit,height=4cm, width=\linewidth, blank, borderline={1pt}{-2pt},nobeforeafter]
 %solution
+We observe that the first figure corresponds to the tile features, while the second one to the raw features. That is because, for raw features, the value function is linear, and hence we expect linear decision boundaries (right figure), whereas for tile features, the value function is non-linear, so we expect complicated non-linear decision boundaries as the ones depicted in the first figure.\\
+The decision boundaries of the raw features is straight-forward: When the car's velocity is higher than a certain threshold, the car will always choose to go right (action 2). While before a certain position threshold (around 0), the car will go left for a velocity lower than -0.02, it will stay in place for values greater than this threshold.\\
+The decision boundaries for the tile features are more complicated: There is a trend for going right for positive velocities, while for negative velocities, the car usually goes left. There are also some small areas where the car deviates from the described trend, for example for very low velocities and positions, or for large positions and low velocities.
 \end{tcolorbox}
 
 \end{enumerate}
@@ -1027,7 +1037,9 @@ For each set of features, plot the return (sum of all rewards in an episode) per
     
 \begin{tcolorbox}[fit,height=14cm, width=\linewidth, blank, borderline={1pt}{-2pt},nobeforeafter]
     %solution
-     
+     1. No\\
+     2. No\\
+     3. No
 \end{tcolorbox}
 
 

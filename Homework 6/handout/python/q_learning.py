@@ -1,8 +1,6 @@
 from environment import MountainCar
 import sys
-import numpy as np 
-
-#np.random.seed(10601)
+import numpy as np
 
 def write_weights_to_file(output_file, weights, bias):
 	with open(output_file, 'w') as f:
@@ -24,11 +22,6 @@ def compute_q(action, state, weights, bias, ep, count):
 	q = np.float64(0)
 	for ind, val in state.items():
 		q += np.float64(val) * weights[ind, action]
-		# if ep == 0 and count == 4:
-		# 	print('compute_q process')
-		# 	print(val)
-		# 	print(weights[ind, action])
-		# 	print('end compute_q process')
 	q += bias
 	return q
 
@@ -44,9 +37,6 @@ def calc_max_q(state, weights, bias, ep, count):
 def choose_action(state, weights, bias, epsilon, i, count):
 	#generate random number
 	prob = np.random.random()
-	# if i == 0 and count <= 4:
-	# 	print('count = ', count)
-	# 	print('prob =', prob)
 	if prob <= epsilon:
 		chosen_action = np.random.choice(num_actions)
 	else:
@@ -69,17 +59,15 @@ car = MountainCar(mode)
 
 #initialize parameters
 weights = np.zeros([car.state_space, num_actions], dtype=np.float64)
-print(car.state_space)
+
 bias = np.float64(0)
 rewards = []
 
 for i in range(num_episodes):
 	count = 1
 	state = car.reset()
-	#print(state)
 	done = False
 	rewards.append(0)
-	#print('Episode ', i)
 	while done == False and count <= max_iter:
 		action = choose_action(state, weights, bias, epsilon, i, count)
 		q_current = compute_q(action, state, weights, bias, i, count)
@@ -92,22 +80,8 @@ for i in range(num_episodes):
 		for ind, val in state.items():
 			weights[ind, action] -= td_error * np.float64(val)
 		bias -= td_error
-		# if i == 0 and count <= 4:
-		# 	print('state = ', state)
-		# 	print('action = ', action)
-		# 	print('new state = ', new_state)
-		# 	print('max q = ', max_q)
-		# 	print('q_current = ', q_current)
-		# 	print('q_new = ', q_new)
-		# 	print('reward = ', reward)
-		# 	print('td_error = ', td_error)
-		# 	print(state)
-		# 	print(weights)
-		# 	print(bias)
 		state = new_state
 		count += 1
-	#print(weights)
-	#print(bias)
-# print(weights)
+
 write_weights_to_file(weight_out, weights, bias)
 write_rewards_to_file(returns_out, rewards)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.4)  10 NOV 2019 00:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.4)  10 NOV 2019 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1805,183 +1805,236 @@ Underfull \hbox (badness 10000) in paragraph at lines 595--597
 
 [4
 
-] [5] [6] [7
+]
+<figs/screen1.png, id=110, 775.89874pt x 368.37625pt>
+File: figs/screen1.png Graphic file (type png)
+<use figs/screen1.png>
+Package pdftex.def Info: figs/screen1.png  used on input line 622.
+(pdftex.def)             Requested size: 437.95859pt x 207.93622pt.
+<figs/screen2.png, id=112, 703.62875pt x 527.9725pt>
+File: figs/screen2.png Graphic file (type png)
+<use figs/screen2.png>
+Package pdftex.def Info: figs/screen2.png  used on input line 628.
+(pdftex.def)             Requested size: 437.95859pt x 328.6205pt.
+ [5 <./figs/screen1.png>] [6 <./figs/screen2.png>] [7
 
 ] [8] [9
 
 ] [10] [11
 
 ]
-<figs/atari_breakout.jpg, id=174, 620.3175pt x 381.425pt>
+<figs/atari_breakout.jpg, id=179, 620.3175pt x 381.425pt>
 File: figs/atari_breakout.jpg Graphic file (type jpg)
 <use figs/atari_breakout.jpg>
-Package pdftex.def Info: figs/atari_breakout.jpg  used on input line 872.
+Package pdftex.def Info: figs/atari_breakout.jpg  used on input line 874.
 (pdftex.def)             Requested size: 232.53001pt x 142.97581pt.
-<figs/atari_breakout_bw.jpg, id=175, 620.3175pt x 381.425pt>
+<figs/atari_breakout_bw.jpg, id=180, 620.3175pt x 381.425pt>
 File: figs/atari_breakout_bw.jpg Graphic file (type jpg)
 <use figs/atari_breakout_bw.jpg>
-Package pdftex.def Info: figs/atari_breakout_bw.jpg  used on input line 877.
+Package pdftex.def Info: figs/atari_breakout_bw.jpg  used on input line 879.
 (pdftex.def)             Requested size: 232.53001pt x 142.97581pt.
- [12
+
+[12
 
  <./figs/atari_breakout.jpg> <./figs/atari_breakout_bw.jpg>] [13
 
-] [14]
-<figs/policy_A.pdf, id=219, 440.25854pt x 338.33276pt>
+]
+<figs/screen3.png, id=215, 787.94376pt x 655.44875pt>
+File: figs/screen3.png Graphic file (type png)
+<use figs/screen3.png>
+Package pdftex.def Info: figs/screen3.png  used on input line 953.
+(pdftex.def)             Requested size: 437.95859pt x 364.30843pt.
+ [14 <./figs/screen3.png>] [15]
+<figs/raw.png, id=230, 462.528pt x 346.896pt>
+File: figs/raw.png Graphic file (type png)
+<use figs/raw.png>
+Package pdftex.def Info: figs/raw.png  used on input line 988.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<figs/tile.png, id=231, 462.528pt x 346.896pt>
+File: figs/tile.png Graphic file (type png)
+<use figs/tile.png>
+Package pdftex.def Info: figs/tile.png  used on input line 988.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<figs/policy_A.pdf, id=232, 440.25854pt x 338.33276pt>
 File: figs/policy_A.pdf Graphic file (type pdf)
 <use figs/policy_A.pdf>
-Package pdftex.def Info: figs/policy_A.pdf  used on input line 989.
+Package pdftex.def Info: figs/policy_A.pdf  used on input line 996.
 (pdftex.def)             Requested size: 234.8775pt x 180.50288pt.
-<figs/policy_B.pdf, id=220, 440.25854pt x 338.33276pt>
+<figs/policy_B.pdf, id=233, 440.25854pt x 338.33276pt>
 File: figs/policy_B.pdf Graphic file (type pdf)
 <use figs/policy_B.pdf>
-Package pdftex.def Info: figs/policy_B.pdf  used on input line 994.
+Package pdftex.def Info: figs/policy_B.pdf  used on input line 1001.
 (pdftex.def)             Requested size: 234.8775pt x 180.50288pt.
- [15
+ [16
 
-] [16 <./figs/policy_A.pdf> <./figs/policy_B.pdf
+ <./figs/raw.png> <./figs/tile.png>]
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 1019.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.4375> not available
+(Font)              size <8> substituted on input line 1019.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.59375> not available
+(Font)              size <9> substituted on input line 1019.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.51563> not available
+(Font)              size <9> substituted on input line 1019.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.47656> not available
+(Font)              size <8> substituted on input line 1019.
+
+[17 <./figs/policy_A.pdf> <./figs/policy_B.pdf
 
 pdfTeX warning: pdflatex (file ./figs/policy_B.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
->] [17
+>] [18
 
 ]
-<figs/MountainCar.png, id=297, 602.25pt x 399.4925pt>
+<figs/MountainCar.png, id=312, 602.25pt x 399.4925pt>
 File: figs/MountainCar.png Graphic file (type png)
 <use figs/MountainCar.png>
-Package pdftex.def Info: figs/MountainCar.png  used on input line 1049.
+Package pdftex.def Info: figs/MountainCar.png  used on input line 1061.
 (pdftex.def)             Requested size: 234.8775pt x 155.80144pt.
- [18
+ [19
 
  <./figs/MountainCar.png>]
-Overfull \hbox (15.28232pt too wide) in paragraph at lines 1117--1118
+Overfull \hbox (15.28232pt too wide) in paragraph at lines 1129--1130
 [][] 
  []
 
 
-Overfull \hbox (15.28232pt too wide) in paragraph at lines 1151--1152
+Overfull \hbox (15.28232pt too wide) in paragraph at lines 1163--1164
 [][] 
  []
 
-[19] [20]
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 118
-1.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 1181.
+[20] [21]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 119
+3.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 1193.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 1181.
+(Font)              for symbol `textbraceleft' on input line 1193.
 
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1190.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1202.
 
-[21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 1259--1259
+[22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 1271--1271
 []\OT1/cmr/bx/n/10.95 Python3 Users: \OT1/cmr/m/n/10.95 Please in-clude a blank
  file called python3.txt (case-sensitive) in your tar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1259--1259
+Underfull \hbox (badness 10000) in paragraph at lines 1271--1271
 \OT1/cmr/m/n/10.95 sub-mis-sion and we will ex-e-cute your sub-mit-ted pro-gram
  us-ing Python 3 in-stead of Python
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
  []\OT1/cmr/bx/n/10.95 Linear Al-ge-bra Li-braries[] \OT1/cmr/m/n/10.95 It is o
 f-ten more con-ve-nient to have a lin-ear al-ge-bra li-brary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 \OT1/cmr/m/n/10.95 at your dis-posal. In this as-sign-ment, Java users may use 
 EJML[][][][][] and C++ users Eigen[][][][][].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 \OT1/cmr/m/n/10.95 De-tails be-low. (As usual, Python users have numpy; Oc-tave
  users have built-in ma-trix sup-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 []\OT1/cmr/m/n/10.95 EJML is a pure Java lin-ear al-ge-bra pack-age with three 
 in-ter-faces. We strongly rec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 \OT1/cmr/m/n/10.95 om-mend us-ing the Sim-pleMa-trix in-ter-face. Au-to-lab wil
 l use EJML ver-sion 3.3. The
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 \OT1/cmr/m/n/10.95 com-mand line ar-gu-ments above demon-strate how we will cal
 l you code. The class-path
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 \OT1/cmr/m/n/10.95 in-clu-sion [][][][][][][][][][][][][][] will en-sure that a
 ll the EJML jars are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 []\OT1/cmr/m/n/10.95 Eigen is a header-only li-brary, so there is no link-ing t
 o worry about---just [][][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 \OT1/cmr/m/n/10.95 what-ever com-po-nents you need. Au-to-lab will use Eigen ve
 r-sion 3.3.4. The com-mand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 \OT1/cmr/m/n/10.95 line ar-gu-ments above demon-strate how we will call you cod
 e. The ar-gu-ment [][][][][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 \OT1/cmr/m/n/10.95 We have in-cluded the cor-rect ver-sions of EJM-L/Eigen in t
 he hand-out.tar for your con-ve-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1285
 \OT1/cmr/m/n/10.95 nience. Do \OT1/cmr/bx/n/10.95 not \OT1/cmr/m/n/10.95 in-clu
 de EJML or Eigen in your Au-to-lab sub-mis-sion tar; the au-to-grader will
  []
 
 
 AED: lastpage setting LastPage
-[23]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1281.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1281.
+[24]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1293.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1293.
  (./hw6.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1281.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1293.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1293.
 
 Package rerunfilecheck Info: File `hw6.out' has not changed.
 (rerunfilecheck)             Checksum: 67948D4E28691B4CC129C9B6D21A4799;884.
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1281.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1293.
  ) 
 Here is how much of TeX's memory you used:
- 46750 strings out of 492982
- 1050499 string characters out of 6134897
- 1355983 words of memory out of 5000000
- 49485 multiletter control sequences out of 15000+600000
+ 46783 strings out of 492982
+ 1051064 string characters out of 6134897
+ 1355985 words of memory out of 5000000
+ 49512 multiletter control sequences out of 15000+600000
  556870 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,26n,128p,10480b,1734s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2037,10 +2090,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on hw6.pdf (23 pages, 484931 bytes).
+Output written on hw6.pdf (24 pages, 1784861 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
- 126 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 385 compressed objects within 4 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
