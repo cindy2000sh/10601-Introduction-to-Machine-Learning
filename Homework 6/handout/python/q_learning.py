@@ -31,6 +31,8 @@ def calc_max_q(state, weights, bias, ep, count):
 	for i in range(num_actions):
 		q_values.append(compute_q(i, state, weights, bias, ep, count))
 	#np.argmax returns the smaller index of the max value, which satisfies the breaking-ties requirement
+	# if ep == 0 and count <= 2:
+	# 	print(q_values)
 	return np.argmax(q_values)
 
 #chooses action based on epsilon greedy policy
@@ -80,6 +82,10 @@ for i in range(num_episodes):
 		for ind, val in state.items():
 			weights[ind, action] -= td_error * np.float64(val)
 		bias -= td_error
+		# if i == 0 and count <= 4:
+		# 	print('action = ', action)
+		# 	print('q_current = ', q_current)
+		# 	print('q_new = ', q_new)
 		state = new_state
 		count += 1
 
