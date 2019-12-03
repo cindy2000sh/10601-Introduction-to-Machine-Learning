@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{MLE/MAP [22 pts]}{}% 1
+\BOOKMARK [1][-]{section.2}{Naive Bayes [13 pts]}{}% 2
+\BOOKMARK [1][-]{section.3}{Written Questions [15 pts]}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Multiple Choice [4 pts]}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Warm-up Exercise: Viterbi Algorithm [5 pts]}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Empirical Questions [6 pts]}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Collaboration Policy}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Programming [50 pts]}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{The Tasks and Data Sets}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Learning}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.3}{Viterbi Decoding}{section.4}% 11
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Viterbi Algorithm}{subsection.4.3}% 12
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Log-Space Arithmetic for Avoiding Underflow}{subsection.4.3}% 13
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Retrieve Most Probable Sequence}{subsection.4.3}% 14
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Hints}{subsection.4.3}% 15
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Implementation Details}{subsection.4.3}% 16
+\BOOKMARK [2][-]{subsection.4.4}{Autolab Submission}{section.4}% 17
