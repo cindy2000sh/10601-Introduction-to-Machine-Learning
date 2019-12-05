@@ -6,7 +6,7 @@
     \textbf{Select all that apply:}
     
         \begin{list}{}
-        \item $\square$ Additional rounds of training can help reduce the errors made on unseen data.
+        \item $\blacksquare$ Additional rounds of training can help reduce the errors made on unseen data.
         \item $\square$ Additional rounds of training have no impact on unseen data.
         \item $\square$ The individual weak learners also make zero error on the training data.
         \item $\square$ Additional rounds of training always leads to worse performance on unseen data.
@@ -19,10 +19,10 @@
     \textbf{Select all that apply:}
     
         \begin{list}{}
-        \item $\square$ Ensemble methods combine together many simple, poorly performing classifiers in order to produce a single, high quality classifier.
-        \item $\square$ Neural networks can be used in the ensemble methods.
+        \item $\blacksquare$ Ensemble methods combine together many simple, poorly performing classifiers in order to produce a single, high quality classifier.
+        \item $\blacksquare$ Neural networks can be used in the ensemble methods.
         \item $\square$ For the weighted majority algorithm, the weak classifiers are learned along the way.
-        \item $\square$ For the weighted majority algorithm, we want to give higher weights to better performing models.
+        \item $\blacksquare$ For the weighted majority algorithm, we want to give higher weights to better performing models.
     \end{list}
     
 
@@ -31,7 +31,7 @@
     \textbf{True or False:} In AdaBoost weights of the misclassified examples go up by the same multiplicative factor.
 
     \begin{list}{}
-        \item $\circle$ True
+        \item $\blackcircle$ True
         \item $\circle$ False
     \end{list}
     
@@ -42,7 +42,7 @@
 
     \begin{list}{}
         \item $\circle$ True
-        \item $\circle$ False
+        \item $\blackcircle$ False
     \end{list}
     
 
@@ -95,7 +95,7 @@ In the following problems, you may assume that non-consecutive rows are independ
  Round & $D_2(A)$ & $D_2(B)$ & $D_2(C)$ & $D_2(D)$ & $D_2(E)$ & $D_2(F)$\\ [4pt]
   \hline
   \hline
- 2 &   &  &   &   &   &   \\ [4pt]
+ 2 & $\frac{1}{8}$  & $\frac{1}{8}$ & $\frac{1}{8}$  &  $\frac{1}{4}$ &  $\frac{1}{8}$ &  $\frac{1}{4}$ \\ [4pt]
 \hline
 \end{tabular}
 \end{center}
@@ -104,11 +104,13 @@ In the following problems, you may assume that non-consecutive rows are independ
     \item \textbf{[3pts]} During Round 219, which of the training points (A, B, C, D, E, F) must have been misclassified, in order to produce the updated weights shown at the start of Round 220? List all the points that were misclassified. If none were misclassified, write `None'. If it can't be decided, write `Not Sure' instead.
     
     \begin{tcolorbox}[fit,height=1cm, width=6cm, blank, borderline={1pt}{-2pt},nobeforeafter]
+    \begin{center}\huge{Not sure} \end{center}
     \end{tcolorbox}\\
 
     \item \textbf{[3pts]} During Round 220, which of the training points (A, B, C, D, E, F) must have been misclassified in order to produce the updated weights shown at the start of Round 221? List all the points that were misclassified.  If none were misclassified, write `None'. If it can't be decided, write `Not Sure' instead.
 
     \begin{tcolorbox}[fit,height=1cm, width=6cm, blank, borderline={1pt}{-2pt},nobeforeafter]
+    \begin{center}\huge{A, B, E} \end{center}
     \end{tcolorbox}\\
 
     \item \textbf{[3pts]}  You observes that the weights in round 3017 or 8888 (or both) cannot possibly be right. Which one is incorrect? Why? Please explain in one or two short sentences.
@@ -116,14 +118,13 @@ In the following problems, you may assume that non-consecutive rows are independ
     \begin{list}{}
         \item $\circle$ Round 3017 is incorrect.
         \item $\circle$ Round 8888 is incorrect.
-        \item $\circle$ Both rounds 3017 and 8888 are incorrect.
+        \item $\blackcircle$ Both rounds 3017 and 8888 are incorrect.
     \end{list}
 
     \textbf{NOTE: Please do not change the size of the following text box, and keep your answer in it. Thank you!} \\ \\
     \begin{tcolorbox}[fit,height=4cm, width=15cm, blank, borderline={1pt}{-2pt},nobeforeafter]
     \large
-    Your answer.
-
+    Round 3017 is wrong because $D_{3017}(F)=0$. This cannot happen since according to the update rule of $D_t(i)$, we have $D_{t+1}(i)=\frac{D_t(i)}{z_t}e^{+-a_t}$. Based on that, initializing $D_t(i)=\frac{1}{6}>0$ $\forall i$, and $e^{+-a_t}>0$ $\forall a_t$. Consequently, $D_t$ can never be 0. Round 8888 is wrong because the weights should sum up to 1, and they don't.
     \end{tcolorbox} \\
     
     

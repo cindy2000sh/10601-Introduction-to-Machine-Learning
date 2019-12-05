@@ -9,8 +9,8 @@ HMM is composed of three fundamental problems: \textbf{likelihood}, \textbf{deco
     
     \begin{list}{}
     \item $\square$ $\sum_{i=1}^N \beta_0(i)\pi_i$
-    \item $\square$ $\sum_{i=1}^N \beta_0(i)$
-    \item $\square$ $\sum_{i=1}^N \alpha_T(i)$
+    \item $\blacksquare$ $\sum_{i=1}^N \beta_0(i)$
+    \item $\blacksquare$ $\sum_{i=1}^N \alpha_T(i)$
     \item $\square$ $\sum_{i=1}^N \alpha_T(i)\pi_i$
     \item $\square$ $\sum_{i=1}^N \beta_T(i)$
     \item $\square$ None of the above
@@ -21,10 +21,10 @@ HMM is composed of three fundamental problems: \textbf{likelihood}, \textbf{deco
     
     \textbf{Select all that apply:}
     \begin{list}{}
-        \item $\square$ The Viterbi algorithm is used for the decoding problem and has to know the hidden states in the training set in order to find the best sequence of hidden states for a sequence of testing observations.
-        \item $\square$ The goal of the Baum Welch algorithm iteratively learn  $\alpha_i$'s and $\beta_i$'s.
+        \item $\blacksquare$ The Viterbi algorithm is used for the decoding problem and has to know the hidden states in the training set in order to find the best sequence of hidden states for a sequence of testing observations.
+        \item $\blacksquare$ The goal of the Baum Welch algorithm iteratively learn  $\alpha_i$'s and $\beta_i$'s.
         \item $\square$ Baum Welch algorithm is guaranteed to learn the best set of parameters since we use maximum likelihood estimators. 
-        \item $\square$ Unlike SGD, the likelihood that the Baum Welch algorithm tries to maximize is never going to decrease throughout iterations. 
+        \item $\blacksquare$ Unlike SGD, the likelihood that the Baum Welch algorithm tries to maximize is never going to decrease throughout iterations. 
         \item $\square$ None of the above
         
     \end{list}
@@ -48,38 +48,38 @@ HMM is composed of three fundamental problems: \textbf{likelihood}, \textbf{deco
         \textbf{Select one:}
         \begin{list}{}
             \item $\circle$ True
-            \item $\circle$ False
+            \item $\blackcircle$ False
         \end{list}
         \textbf{NOTE: Please do not change the size of the following text box, and keep your answer in it. Thank you!} \\ \\
         \begin{tcolorbox}[fit,height=4cm, width=15cm, blank, borderline={1pt}{-2pt},nobeforeafter]
         \large
-        Your answer.
+        The likelihood space is very non-convex. This means that for different values of $A$ and $B$ we will end up at different local maxima, hence the initial values matter.
     
         \end{tcolorbox} \\
         \item \textbf{[2pts]} $\sum_{t=0}^{T-1}\xi_t(i, j)$ is the expected number of times that a hidden state $i$ is followed by a hidden state $j$ in the observation $O$. \\
         \textbf{Select one:}
         \begin{list}{}
             \item $\circle$ True
-            \item $\circle$ False
+            \item $\blackcircle$ False
         \end{list}
         \item \textbf{[2pts]} We can use $\xi^l(i, j)$  (i.e., the value of $\xi(i, j)$ in the $l^{\textrm{th}}$ iteration) alone to find $a^{l+1}_{ij}$ (i.e., the $a_{ij}$ in the $l+1^{\textrm{th}}$ iteration).\\
         \textbf{Select one:}
         \begin{list}{}
             \item $\circle$ True
-            \item $\circle$ False
+            \item $\blackcircle$ False
         \end{list}
         \clearpage
         \item \textbf{[2pts]} In one iteration of Baum Welch, we first solve the \textbf{encoding} problem (i.e., finding the most probable sequence of hidden states) using the Viterbi algorithm in order to find the MLE for $A$ and $B$. \\
         \textbf{Select one:}
         \begin{list}{}
             \item $\circle$ True
-            \item $\circle$ False
+            \item $\blackcircle$ False
         \end{list}
         
         \item \textbf{[2pts]} Baum Welch is an unsupervised learning method while Viterbi decoding is a supervised learning method.\\
         \textbf{Select one:}
         \begin{list}{}
-            \item $\circle$ True
+            \item $\blackcircle$ True
             \item $\circle$ False
         \end{list}
         

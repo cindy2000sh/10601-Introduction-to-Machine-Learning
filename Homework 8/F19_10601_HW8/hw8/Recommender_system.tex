@@ -19,8 +19,8 @@
     \textbf{Select all that apply:}
     
         \begin{list}{}
-        \item $\square$ You manage an online bookstore and you have the book ratings from many users. For each user, you want to recommend other books she will enjoy, based on her own ratings and the ratings of other users.
-        \item $\square$ You run an online news aggregator, and for every user, you know some subset of articles that the user likes and some different subset that the user dislikes. You'd want to use this to find other articles that the user likes.
+        \item $\blacksquare$ You manage an online bookstore and you have the book ratings from many users. For each user, you want to recommend other books she will enjoy, based on her own ratings and the ratings of other users.
+        \item $\blacksquare$ You run an online news aggregator, and for every user, you know some subset of articles that the user likes and some different subset that the user dislikes. You'd want to use this to find other articles that the user likes.
         \item $\square$ You've written a piece of software that has downloaded news articles from many news websites. In your system, you also keep track of which articles you personally like vs. dislike, and the system also stores away features of these articles (e.g., word counts, name of author). Using this information, you want to build a system to try to find additional new articles that you personally will like.
         \item $\square$ You manage an online bookstore and you have the book ratings from many users. You want to learn to predict the expected sales volume (number of books sold) as a function of the average rating of a book.
     \end{list}
@@ -32,9 +32,9 @@
     
         \begin{list}{}
         \item $\square$ That content filtering and collaborative filtering are just two different factorizations of the same rating matrix.
-        \item $\square$ That factoring user and item matrices can partition the users and items into clusters that can be treated identically, reducing the complexity of making recommendations.
+        \item $\blacksquare$ That factoring user and item matrices can partition the users and items into clusters that can be treated identically, reducing the complexity of making recommendations.
         \item $\square$ The user-user and item-item correlations are more efficiently computed by factoring matrices.
-        \item $\square$ That user-item relations can be well described in a low dimensional space that can be computed from the rating matrices.
+        \item $\blacksquare$ That user-item relations can be well described in a low dimensional space that can be computed from the rating matrices.
     \end{list}
     
     
@@ -63,7 +63,7 @@
 
         \begin{list}{}
         \item $\circle$ $v_uH(H^TH+\lambda I)^{-1}$
-        \item $\circle$ $(H^TH+\lambda I)^{-T}v_uH$
+        \item $\blackcircle$ $(H^TH+\lambda I)^{-T}v_uH$
         \item $\circle$ $v_uH(H^TH+\lambda I)^{-T}$
         \item $\circle$ $v_uH(H^TH)^{-1}$
     \end{list}    
